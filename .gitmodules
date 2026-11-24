@@ -1,0 +1,7 @@
+[submodule "linux"]
+	path = linux
+	url = https://github.com/moWerk/linux-pro1x.git
+	branch = sfos-7.3
+[submodule "kernel-adaptation-simplified"]
+	path = kernel-adaptation-simplified
+	url = https://github.com/sailfishos-open/kernel-adaptation-simplified
