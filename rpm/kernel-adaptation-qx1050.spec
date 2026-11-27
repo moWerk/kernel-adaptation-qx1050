@@ -17,7 +17,7 @@
 # The Pro1-X's ABL wants the DTB appended to Image.gz, header version 0, 4 KiB pages.
 %define deviceinfo_dtb qcom/sm6115-fxtec-pro1x.dtb
 %define deviceinfo_append_dtb true
-%define deviceinfo_kernel_cmdline console=ttyMSM0,115200n8 loglevel=3 log_buf_len=1M lsm=landlock,yama,bpf logo.nologo vt.global_cursor_default=0
+%define deviceinfo_kernel_cmdline console=ttyMSM0,115200n8 loglevel=3 log_buf_len=1M lsm=landlock,yama,bpf logo.nologo vt.global_cursor_default=0 audit=0
 %define deviceinfo_flash_pagesize 4096
 %define deviceinfo_flash_offset_base 0x00000000
 %define deviceinfo_flash_offset_kernel 0x00008000
