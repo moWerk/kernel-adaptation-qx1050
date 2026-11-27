@@ -29,7 +29,7 @@
 %define deviceinfo_bootimg_os_patch_level 0
 
 Version:        7.3.0
-Release:        1
+Release:        2
 
 Provides:       droid-hal-qx1050-kernel
 Provides:       droid-hal-qx1050-kernel-modules
